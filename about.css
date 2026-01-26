@@ -1,0 +1,212 @@
+/*----------------------------------------
+about
+----------------------------------------*/
+#header .header {
+    background-color: #32414D;
+}
+.about {
+    padding: 180px 0 100px;
+    background-color: #32414D;
+    color: #FFFFFF;
+    text-align: center;
+}
+.about .section-title {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.about .mainvisual {
+    margin-bottom: 50px;
+}
+.about .mainvisual img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.about .section-text {
+    color: #009BC6;
+}
+.about .text {
+    letter-spacing: 0.05em;
+}
+
+/*----------------------------------------
+reason
+----------------------------------------*/
+.reason {
+    background-color: #dddddd;
+    padding: 120px 0;
+}
+.reason .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reason .inner .text-area {
+    width: 48%;
+}
+.reason .inner .text-area .title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+.reason .inner .text-area .text {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.reason .inner .text-area .text:last-child {
+    margin-bottom: 0;
+}
+.reason .inner .img-area {
+    width: 48%;
+}
+.reason .inner .img-area img {
+    width: 100%;
+    height: 580px; 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*----------------------------------------
+important
+----------------------------------------*/
+.important {
+    padding: 100px 20px;
+    text-align: center;
+}
+.important .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.important .inner .item {
+    width: 32%;
+    height: 280px;
+    background-color: #32414D;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.important .inner .item .title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #009BC6;
+    margin-bottom: 40px;
+}
+.important .inner .item .text {
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+/*----------------------------------------
+message
+----------------------------------------*/
+.message {
+    padding: 100px 0;
+    background-color: #dddddd;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.message .text {
+    line-height: 1.6;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+.message .title {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 30px;
+    color: #009BC6;
+}
+
+/*----------------------------------------
+recommend
+----------------------------------------*/
+.recommend {
+    padding: 100px 0;
+    text-align: center;
+}
+.recommend .recommend-btn {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/*----------------------------------------
+sp
+----------------------------------------*/
+@media screen and (max-width:800px) {
+
+    /*----------------------------------------
+    contact
+    ----------------------------------------*/
+    .about {
+        padding: 140px 0 80px;
+    }
+    .about .section-title {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    /*----------------------------------------
+    reason
+    ----------------------------------------*/
+    .reason {
+        padding: 80px 0;
+    }
+    .reason .inner {
+        flex-direction: column;
+    }
+    .reason .inner .text-area {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .reason .inner .img-area {
+        width: 100%;
+    }  
+    .reason .inner .img-area img {
+    height: auto; 
+    }
+
+    /*----------------------------------------
+    important
+    ----------------------------------------*/
+    .important {
+        padding: 80px 20px 40px;
+    }
+    .important .inner {
+        flex-direction: column;
+    }
+    .important .inner .item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .important .inner .item .title {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        color: #009BC6;
+        margin-bottom: 40px;
+    }
+    .important .inner .item .text {
+        color: #FFFFFF;
+        line-height: 1.6;
+    }
+    /*----------------------------------------
+    message
+    ----------------------------------------*/
+    .message {
+        padding: 80px 0;
+    }
+
+    /*----------------------------------------
+    recommend
+    ----------------------------------------*/
+    .recommend {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .recommend .recommend-btn {
+        flex-direction: column;
+    }
+
+}

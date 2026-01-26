@@ -1,0 +1,143 @@
+/*----------------------------------------
+company
+----------------------------------------*/
+#header .header {
+    background-color: #32414D;
+}
+.company {
+    padding: 180px 0 100px;
+    background-color: #32414D;
+    color: #FFFFFF;
+    text-align: center;
+}
+.company .section-title {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.company .mainvisual {
+    margin-bottom: 50px;
+}
+.company .mainvisual img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.company .section-text {
+    color: #009BC6;
+}
+.company .text {
+    letter-spacing: 0.05em;
+}
+
+/*----------------------------------------
+philosophy
+----------------------------------------*/
+.philosophy {
+    background-color: #dddddd;
+    padding: 120px 0;
+    text-align: center;
+}
+.philosophy .section-text {
+    color: #009BC6;
+}
+.philosophy .text {
+    line-height: 1.6;
+}
+
+/*----------------------------------------
+profile
+----------------------------------------*/
+.profile {
+    padding: 100px 0;
+}
+.profile .section-text {
+    text-align: center;
+}
+.profile .inner dl {
+    display: flex;
+    padding: 20px 0;
+    border-top: dashed 1px #32414D;
+}
+.profile .inner dl:last-child {
+    border-bottom: dashed 1px #32414D;
+}
+.profile .inner dl dt {
+    width: 30%;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.profile .inner dl dd {
+    width: 70%;
+}
+
+/*----------------------------------------
+future
+----------------------------------------*/
+.future {
+    background-color: #dddddd;
+    padding: 120px 0;
+    text-align: center;
+}
+.future .section-text {
+    color: #009BC6;
+}
+.future .text {
+    line-height: 1.6;
+}
+/*----------------------------------------
+ask
+----------------------------------------*/
+.ask {
+    padding: 120px 0;
+    text-align: center;
+}
+
+
+
+/*----------------------------------------
+sp
+----------------------------------------*/
+@media screen and (max-width:800px) {
+    /*----------------------------------------
+    company
+    ----------------------------------------*/
+    .company {
+        padding: 140px 0 80px;
+    }
+    .company  .section-title {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    /*----------------------------------------
+    philosophy
+    ----------------------------------------*/
+    .philosophy {
+        padding: 80px 0;
+    }
+
+    /*----------------------------------------
+    profile
+    ----------------------------------------*/
+    .profile {
+        padding: 80px 0;
+    }
+    .profile .inner dl {
+        font-size: 18px;
+    }
+
+    /*----------------------------------------
+    future
+    ----------------------------------------*/
+    .future {
+        padding: 80px 0;
+    }
+
+    /*----------------------------------------
+    ask
+    ----------------------------------------*/
+    .ask {
+        padding: 80px 0;
+    }
+
+}

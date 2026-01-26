@@ -1,0 +1,126 @@
+/*----------------------------------------
+contact
+----------------------------------------*/
+#header .header {
+    background-color: #32414D;
+}
+.contact {
+    text-align: center;
+    padding-top: 180px;
+}
+.contact .title {
+    padding: 100px 0;
+}
+.contact .inner {
+    padding: 80px 20px;
+    color: #ffffff;
+    background-color: #009BC6;
+}
+
+/*----------------------------------------
+form-section
+----------------------------------------*/
+.form-section {
+    margin: 100px 0;
+}
+.form-section .form-container dl {
+    margin-bottom: 40px;
+}
+.form-section .form-container dl:last-child {
+    margin-bottom: 0;
+}
+.form-section .form-container dl dt label {
+    font-weight: bold;
+}
+.form-section .form-container dl .required {
+    color: #F23A3C;
+}
+.form-section .form-container dd input[type="text"],
+.form-section .form-container dd input[type="email"],
+.form-section .form-container dd textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed  #32414D;
+}
+.form-section .form-container .privacy-policy {
+    padding: 0 70px;
+    margin: 100px 0;
+    text-align: left;
+}
+.form-section .form-container .privacy-policy p {
+    line-height: 1.6;
+}
+.form-section .form-container .privacy-policy .inner {
+    padding: 0 70px;
+}
+.form-section .form-container .privacy-policy .detail {
+    width: 100%;
+    height: 350px;
+    font-size: 16px;
+    padding: 20px 20px 0;
+    margin-top: 50px;
+    border: solid 1px #32414D;
+    overflow-x: hidden;
+}
+.form-section .form-container .privacy-policy .detail .title {
+    text-align: center;
+}
+.form-section .form-container .privacy-policy .detail p {
+    margin-bottom: 20px;
+}
+.form-section .form-container .agree {
+    text-align: center;
+}
+.form-section .form-container .agree dl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-section .form-container .agree dl dt {
+    margin-right: 10px;
+}
+.form-section .form-container .agree dl dd {
+    padding-right: 65px;
+}
+
+.form-btn {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #009BC6;
+  border: solid 1px #ffffff;
+  text-align: center;
+  padding: 15px 30px;
+  position: relative;
+  z-index: 10;
+}
+.form-btn:hover {
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width:800px) {
+  /*----------------------------------------
+    contact
+    ----------------------------------------*/
+    .contact {
+        padding-top: 140px;
+    }
+    .contact .title {
+        padding: 80px 0;
+    }
+
+    /*----------------------------------------
+    form-section
+    ----------------------------------------*/
+    .form-section .form-container .privacy-policy {
+        padding: 0;
+        margin: 80px 0;
+        text-align: left;
+    }
+    .form-section .form-container .privacy-policy p {
+        line-height: 1.6;
+    }
+    .form-section .form-container .privacy-policy .inner {
+        padding: 0;
+    }
+}
